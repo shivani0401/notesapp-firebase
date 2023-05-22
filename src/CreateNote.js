@@ -26,7 +26,7 @@ export default function CreateNote() {
     <div className='App-header'>
       <h3>Create Note</h3>
       <form onSubmit={handleSave}>
-        <input type='text' ref={noteRef}></input>
+        <input style={{border:"1px", borderColor:'white'}} type='text' ref={noteRef}></input>
         <br/>
         <button type='submit'>Create</button>
       </form>
